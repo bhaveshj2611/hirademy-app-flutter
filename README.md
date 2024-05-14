@@ -1,16 +1,49 @@
-# hirademy_flutter_bhavesh
+# Book Store App
 
-A new Flutter project.
+A Flutter application to browse and view details of books from a fake API.
+
+## Features
+
+- Display a list of books with titles and cover images.
+- View detailed information about each book, including title, ISBN, page count, and authors.
+- Smooth transitions between screens using Hero animations.
+
+## Technologies Used
+
+- Flutter: A cross-platform framework for building mobile applications.
+- Provider: A state management library for Flutter applications.
+- HTTP: A package for making HTTP requests in Dart.
+- Other Flutter widgets and packages for UI design and navigation.
+
+## Implementation Guidelines
+
+- **Component-based Architecture:** The application follows a component-based architecture to modularize code and promote reusability.
+- **State Management:** State management is handled using the Provider package, following best practices to manage application state efficiently.
+- **Routing Functionality:** Flutter's built-in routing functionality is implemented to navigate between different pages/screens in the application.
+- **Error Handling:** Proper error handling is implemented to gracefully handle errors that may occur during API requests or other operations.
+- **Loading States:** Loading states are displayed to indicate when data is being fetched from APIs or when any asynchronous operation is in progress.
+- **Responsive Design:** The application adheres to responsive design principles to ensure it is mobile-friendly and provides a consistent user experience across different screen sizes.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository:**
 
-A few resources to get you started if this is your first Flutter project:
+   ```bash
+   git clone https://github.com/yourusername/book-store-app.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Navigate to the project directory:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   cd book-store-app
+   
+3. **Install dependencies:**
+
+   ```bash
+   flutter pub get
+   
+4. **Run the application:**
+
+   ```bash
+   flutter run
+
+
